@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-3LL9OG71",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus24.actions.githubusercontent.com/qEqJNF2hd9Sml6LELxCgx3kD4riYnmEIbWbJNQBtU3LHua3oCR/",
+  "gitHubUrl": "https://github.com/jemmysan/DevOps_CI-CD",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
 jobs:
   deploy:
-    runs-on: [self-hosted, local-runner]
+    runs-on: ubuntu-latest
     steps:
       - name: Récupération du code
         uses: actions/checkout@v3

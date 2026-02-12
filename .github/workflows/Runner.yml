@@ -5,13 +5,18 @@ on:
       - main
 jobs:
   test-runner:
-    runs-on: [self-hosted, local-runner]
+    runs-on: self-hosted
     steps:
       - name: Verification
-        run: echo "Test de fonctionnement du Runner !"
-      - name: Tests de commandes
+        shell: pwsh
+        run: echo "Test de fonctionnement du Runner sur Windows !"
+
+      - name: Tests de commandes système
+        shell: pwsh
         run: |
-          echo "Runner OK"
+          echo "Nom de la machine :"
           hostname
+          echo "Utilisateur actuel :"
           whoami
-          uname -a
+          echo "Version du système :"
+          ver
