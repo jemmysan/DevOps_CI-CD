@@ -8,15 +8,15 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Verification
-        shell: pwsh
+        shell: powershell
         run: echo "Test de fonctionnement du Runner sur Windows !"
 
       - name: Tests de commandes système
-        shell: pwsh
+        shell: powershell
         run: |
           echo "Nom de la machine :"
           hostname
           echo "Utilisateur actuel :"
           whoami
           echo "Version du système :"
-          ver
+          cmd /c ver
